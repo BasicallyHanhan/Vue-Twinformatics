@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwinFormatics Cosmetics</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="vue.css">
+
+                         <!--Vue Framework-->
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+
+</head>
+
+<body>
+
+     <!------------------------------------------------MAIN MENU SECTION------------------------------------------------------------>
+
+     <nav>
+
+        <ul class="menu">
+    
+            <li href="#">Home</li>
+            <li href="#">About</li>
+            <li href="#">Store</li>
+    
+        </ul>
+    
+        <img src="https://media3.giphy.com/media/QVZq0JfYkecfjuy4m1/giphy.gif?cid=6c09b95217afc3d5b2c959047260132dd409a7c26f5641fe&rid=giphy.gif&ct=s">
+            <p id="TwinFormatics">TwinFormatics</p>
+    </nav>
+    
+    
+    
+    <div id=search>
+    
+    <img src="https://www.iconpacks.net/icons/2/free-search-icon-3076-thumb.png">
+    
+    </div>
+    
+    <div id="location">
+        <img src="https://cdn-icons-png.flaticon.com/512/67/67347.png">
+    </div>
+    
+    <div id="user">
+    
+        <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png">
+    
+    </div>
+    
+    <div id="shoppingBag">
+    
+        <img src="https://www.freeiconspng.com/thumbs/bags-icon/bag-icon-6.png">
+    
+    </div>
+    
+    <img id="linebreak" src="https://www.revivalinchrist.com/wp-content/uploads/2018/12/line-break-png-1.png">
+
+
+    <!------------------------------------------------ Product Page-------------------------------------------------------------------->
+
+    <div id="app">
+
+        <p11>{{ message }}</p11>
+
+            <img v-bind:src="image">
+         
+            <p12>Shipment duration:</p12>
+            <p13 v-if="shippingTime > 10 ">More than 10 days</p13>
+            <p14 v-else-if="shippingTime <= 5 && shippingTime > 1"> within 5 Days </p14>
+            <p15 v-else>By Tomorrow</p15>
+
+        
+            <p16>free shipping:</p16>
+            <p17 v-if="premium">Yes</p17>
+            <p18 v-else>No</p18>
+
+            <div class="break"></div>
+
+            <ul>
+                <li>This kit includes:</li>
+                <li v-for="detail in details">{{ detail }}</li>
+              </ul>
+
+              <!-- the @ sign is just another way to say v-on -->
+
+              <div class="viewItem" v-bind:style="{ backgroundColor: variant.color }"
+               v-for="variant in variants" @mouseover="update(variant.image)">
+    
+            </div>
+
+
+<button id="button" v-on:click="cart += 1">Add to cart</button>
+
+<div class="shoppingCart" >{{ cart }}</div>
+
+<!------------------------------------------------ App Mount and script tag-------------------------------------------------------------------->
+
+      <script src="./vue.js"></script>
+    
+    <script> const mountedApp = app.mount('#app')
+     </script>
+
+</body>
+
+</html>

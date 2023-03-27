@@ -1,0 +1,413 @@
+.menu {
+    font-size: 2em;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    font-family: 'Sriracha', cursive;
+    padding: 20px 40px;
+    position: relative;
+    top: 30px;
+}
+
+nav img {
+    width: 310px;
+    height: 200px;
+    position: relative;
+    bottom: 80px;
+}
+  
+#search img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 350px;
+    margin-left: 1080px;
+}
+
+#location img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 405px;
+    margin-left: 1210px;
+}
+
+#TwinFormatics {
+color:black;
+font-family: 'Delicious Handrawn', cursive;
+font-size: 30px;
+
+position: relative;
+bottom: 230px;
+left: 45px;
+letter-spacing: 5px;
+}
+
+#user img {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 460px;
+    margin-left: 1320px;
+
+}
+
+#shoppingBag img {
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 500px;
+    margin-left: 340px;
+
+}
+
+#linebreak {
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    bottom: 610px;
+    left: 100px;
+}
+
+/************************************************* Products Page *****************************************************************/
+
+.products img {
+position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border:solid 7px #41403E;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    
+}
+
+.products img:nth-child(1) {
+    bottom: 650px;
+left: 130px;
+}
+
+.products img:nth-child(2) {
+    left: 270px;
+    bottom: 660px;
+}
+
+.products img:nth-child(3) {
+    left: 410px;
+    bottom: 670px;
+}
+
+.products img:nth-child(3) {
+    left: 410px;
+    bottom: 670px;
+}
+
+.products img:nth-child(4) {
+    right: 800px;
+    bottom: 110px;
+}
+
+.products img:nth-child(5) {
+    left: 600px;
+    bottom: 440px;
+}
+
+.products img:nth-child(6) {
+    left: 730px;
+    bottom: 450px;
+}
+
+
+.products img:hover {
+    
+    box-shadow: 12px 12px rgb(26, 2, 6);
+   margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.products img:not(:hover) {
+
+    transition: all 0.3s ease-in-out;
+}
+
+                       /* Captions & Names */
+
+.textBackground {
+background-color: rgb(195, 195, 195);
+    opacity: 0.7;
+    font-size: 33px;
+    border-radius: 30px;
+    border: 4px dotted white;
+
+    font-family:'Delicious Handrawn', cursive;
+    text-align: center;
+    padding: 10px;
+
+    
+  text-shadow: 0 0 3px white, 0 0 3px white, 0 0 3px white, 0 0 3px white;
+
+}
+
+.textBackground:hover {
+    background-color: rgb(147, 144, 144);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.captions p1 {
+
+  position: relative;
+    bottom: 950px;
+    left: 135px;
+    display: block;
+    width: 270px;
+    height: 50px;
+}
+
+.captions p2 {
+
+    display: block;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    bottom: 1030px;
+    left: 600px;
+    
+  }
+
+  .captions p3 {
+    display: block;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    bottom: 1110px;
+    left: 1050px;
+  }
+
+  .captions p4 {
+    display: block;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    bottom: 630px;
+    left: 160px;
+  }
+
+  .captions p5 {
+    display: block;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    bottom: 710px;
+    left: 620px;
+  }
+
+  .captions p6 {
+    display: block;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    bottom: 788px;
+    left: 1060px;
+  }
+
+  .captions p1:hover, p2:hover, p3:hover, p4:hover, p5:hover, p6:hover {
+    color: rgb(193, 41, 92);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/************************************************* Vue Framework *****************************************************************/
+
+
+#app p11 {
+    position: relative;
+    bottom: 1050px;
+    margin-left: 500px;
+   
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+   
+    background-color: rgb(187, 184, 185);
+       border: 3px solid black;
+       border-radius: 30px;
+       padding: 10px;
+   }
+   
+   #app img {
+       width: 400px;
+       position: relative;
+       bottom: 600px;
+     right: 700px;
+   
+       border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+       border:solid 7px #41403E;
+       box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+   }
+   
+   #app img:hover {
+       
+       box-shadow: 12px 12px rgb(26, 2, 6);
+      margin-bottom: 10px;
+       transition: all 0.3s ease-in-out;
+   }
+   
+   #app img:not(:hover) {
+   
+       transition: all 0.3s ease-in-out;
+   }
+   
+   #app p12 {
+   
+       display: block;
+       position: relative;
+       bottom: 950px;
+       margin-left: 650px;
+       font-family: 'Bangers', cursive;
+   letter-spacing: 5px;
+   font-size: 25px;
+   
+   background-color: rgb(210, 210, 210);
+       border: 3px dotted black;
+       border-radius: 20px;
+       padding: 10px;
+       width: 500px;
+   
+   }
+   
+   #app p13, p14, p15 {
+   
+    display: block;
+    color: Green;
+    position: relative;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+    font-size: 25px;
+
+    text-decoration: underline;
+   position: relative;
+   bottom: 989px;
+   margin-left: 950px;
+    }
+
+#app p16 {
+
+    display: block;
+    position: relative;
+    bottom: 950px;
+    margin-left: 650px;
+    font-family: 'Bangers', cursive;
+letter-spacing: 5px;
+font-size: 25px;
+
+
+    border: 3px dotted black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+#app p17, p18 {
+
+    display: block;
+    color: rgb(128, 2, 0);
+    position: relative;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 5px;
+    font-size: 25px;
+
+    text-decoration: underline;
+   position: relative;
+   bottom: 62rem;
+   margin-left: 870px;
+    }
+
+    .break {
+        background-color: rgb(22, 1, 1);
+        width: 600px;
+        height: 10px;
+        position: relative;
+        bottom: 56rem;
+   margin-left: 670px;
+   border-radius: 30px;
+    }
+
+    #app ul {
+        position: relative;
+    bottom: 870px;
+    margin-left: 790px;
+    font-family: 'Bangers', cursive;
+font-size: 25px;
+
+
+    border: 3px dotted black;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(255, 230, 199);
+    
+    width: 300px;
+    text-align: center;
+    list-style-type: none;
+    }
+
+
+#button {
+      background-color: #fbeee0;
+      border: 2px solid #422800;
+      border-radius: 30px;
+      box-shadow: #422800 4px 4px 0 0;
+
+      color: #422800;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 18px;
+      padding: 0 18px;
+      line-height: 50px;
+      text-align: center;
+
+      position: relative;
+      bottom: 1060px;
+      left: 280px;
+
+      width: 300px;
+      height: 80px;
+    }
+    
+    #button:hover {
+      background-color: #fff;
+    }
+    
+    #button:active {
+      box-shadow: #422800 2px 2px 0 0;
+      transform: translate(2px, 2px);
+    }
+    
+    .shoppingCart {
+        position: relative;
+        bottom: 1825px;
+        margin-left: 360px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .viewItem {
+        width: 50px;
+  height: 50px;
+  border: 2px solid #d8d8d8;
+  border-radius: 50%;
+
+  position: relative;
+  bottom: 1380px;
+margin-left: 220px;
+cursor: pointer;
+
+    }
